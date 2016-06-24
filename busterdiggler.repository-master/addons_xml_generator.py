@@ -16,7 +16,7 @@ class Generator:
         self._generate_addons_file()
         self._generate_md5_file()
         # notify user
-        print "Finished updating addons xml and md5 files"
+        print("Finished updating addons xml and md5 files")
 
     def _generate_addons_file( self ):
         # addon list
@@ -42,9 +42,9 @@ class Generator:
                     addon_xml += unicode( line.rstrip() + "\n", "utf-8" )
                 # we succeeded so add to our final addons.xml text
                 addons_xml += addon_xml.rstrip() + "\n\n"
-            except Exception, e:
+            except Exception as e:
                 # missing or poorly formatted addon.xml
-                print "Excluding %s for %s" % ( _path, e, )
+                print("Excluding %s for %s" % ( _path, e, ))
         # clean and add closing tag
         addons_xml = addons_xml.strip() + u"\n</addons>\n"
         # save file
@@ -56,17 +56,17 @@ class Generator:
             m = md5.new( open( "addons.xml" ).read() ).hexdigest()
             # save file
             self._save_file( m, file="addons.xml.md5" )
-        except Exception, e:
+        except Exception as e:
             # oops
-            print "An error occurred creating addons.xml.md5 file!\n%s" % ( e, )
+            print("An error occurred creating addons.xml.md5 file!\n%s" % ( e, ))
 
     def _save_file( self, data, file ):
         try:
             # write data to the file
             open( file, "w" ).write( data )
-        except Exception, e:
+        except Exception as e:
             # oops
-            print "An error occurred saving %s file!\n%s" % ( file, e, )
+            print("An error occurred saving %s file!\n%s" % ( file, e, ))
 
 
 if ( __name__ == "__main__" ):

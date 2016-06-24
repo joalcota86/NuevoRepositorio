@@ -16,7 +16,7 @@ class Generator:
         self._generate_addons_file()
         self._generate_md5_file()
         # notify user
-        print "Finished updating addons xml and md5 files"
+        print("Finished updating addons xml and md5 files")
 
     def _generate_addons_file( self ):
         # addon list
