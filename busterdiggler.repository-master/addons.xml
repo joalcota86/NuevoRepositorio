@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="plugin.video.zz" name="ZZ" version="3.2.0" provider-name="Buster Diggler">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary></summary>
+		<description>18+</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.busterdiggler" name="Buster Diggler's Add-ons" version="1.0" provider-name="Buster Diggler">
+	<extension point="xbmc.addon.repository" name="Buster Diggler's Add-ons Repo 1.0">
+		<info compressed="false">http://github.com/XBMCSpot/busterdiggler.repository/raw/master/addons.xml</info>
+		<checksum>http://github.com/XBMCSpot/busterdiggler.repository/raw/master/addons.xml.md5</checksum>
+		<datadir zip="true">http://github.com/XBMCSpot/busterdiggler.repository/raw/master/zips</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary></summary>
+		<description></description>
+		<platform>all</platform>
+	</extension>
+</addon>
+</addons>

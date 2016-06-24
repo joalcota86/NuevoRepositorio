@@ -1,0 +1,9 @@
+v1.0.1
+- Opción para mostrar los servidores no soportados.
+- Modificación en la distribución de carpetas de CheckLogs.
+- Opciones para borrar los CheckLogs.
+- Se obvian los enlaces de YouTube.
+- Algunas mejoras en el código que permiten optimizar los resultados.
+
+v1.0.0
+Versión inicial

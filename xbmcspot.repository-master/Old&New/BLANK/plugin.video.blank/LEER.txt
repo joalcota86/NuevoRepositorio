@@ -1,0 +1,105 @@
+
+versión 1.1
+SI VIENES USANDO UNA VERSIÓN ANTERIOR Y YA TIENES CREADO TU PROPIO ADD-ON,
+LEE EL ARCHIVO changelog.txt PARA ENTERARTE CÓMO TE AFECTA ESTA NUEVA VERSIÓN.
+
+SI ESTA ES TU PRIMER VERSIÓN, LEE ATENTAMENTE LAS SIGUIENTES INSTRUCCIONES.
+
+
+INSTRUCCIONES A SEGUIR:
+
+*** PASO 1:
+Piensa en un nombre para tu add-on.
+Pondremos como ejemplo que quieres llamar a tu addon "Mundo Pelis".
+
+
+*** PASO 2:
+Extrae en el ordenador la carpeta "plugin.video.miaddon"
+que se encuentra dentro del fichero "plugin.video.miaddon.zip",
+en la misma ruta que este archivo (LEER.txt).
+Cámbiale el nombre a dicha carpeta.
+Siguiendo el ejemplo, deberías ponerle "plugin.video.mundopelis".
+
+
+*** PASO 3:
+Edita con cualquier editor de texto el archivo addon.xml de la carpeta extraída.
+Los datos que debes cambiar están todos en una misma línea y son:
+addon id="plugin.video.miaddon"
+name="Nombre del addon"
+provider-name="Creador"
+Siguiendo el ejemplo anterior, la línea te debería quedar así:
+<addon id="plugin.video.mundopelis" name="MUNDO PELIS" version="1.0" provider-name="Doc Shadrach">
+
+
+*** PASO 4:
+Edita con cualquier editor de texto el archivo OPCIONES.xml de la carpeta extraída.
+En este archivo verás unas estructuras de etiquetas así:
+
+<CARPETA>
+	<NOMBRE></NOMBRE>
+	<IMAGEN></IMAGEN>
+	<LINK></LINK>
+	<CONTENIDO></CONTENIDO>
+	<TIPO></TIPO>
+</CARPETA>
+
+Deberás rellenar una por cada carpeta que quieras que tenga el add-on.
+
+Explicación de las etiquetas:
+NOMBRE = nombre de la carpeta.
+IMAGEN = imagen de la carpeta.
+LINK = enlace a la lista de la carpeta. Puede ser a pastebin, dropbox, navixtreme...
+CONTENIDO = aquí solo se admiten 2 tipos: VIDEO o TV.
+TIPO = se refiere al tipo de lista según su estructura. Opciones: XML o PLX.
+
+Aclaraciones adicionales:
+VIDEO significa enlaces a películas, TV significa enlaces a canales de televión.
+XML es la estructura básica de una lista de etiquetas, como las que se usan
+en LiveStreams o iStream, PLX es el formato de lista de Navi-X.
+La estructura básica de XML, encierra cada item entre etiquetas <item> </item>,
+si tu lista no incluye estas etiquetas, no se leerá bien.
+
+Ejemplo (ficticio) de add-on con 3 carpetas de diferente contenido:
+
+<CARPETA>
+	<NOMBRE>CINE DE ACCION</NOMBRE>
+	<IMAGEN>http://ih.constantcontact.com/fs129/img/331.jpg</IMAGEN>
+	<LINK>http://pastebin.com/raw.php?i=WgfDrEms</LINK>
+	<CONTENIDO>VIDEO</CONTENIDO>
+	<TIPO>XML</TIPO>
+</CARPETA>
+
+
+<CARPETA>
+	<NOMBRE>CINE INFANTIL</NOMBRE>
+	<IMAGEN>http://www.mubis.es/media/users/3457/30316/original.jpg</IMAGEN>
+	<LINK>http://www.navixtreme.com/playlist/187546/test.plx</LINK>
+	<CONTENIDO>VIDEO</CONTENIDO>
+	<TIPO>PLX</TIPO>
+</CARPETA>
+
+
+<CARPETA>
+	<NOMBRE>Canales de TV</NOMBRE>
+	<IMAGEN>http://skystreamx.com/wp-content/Live-Streams.jpg</IMAGEN>
+	<LINK>https://raw.githubusercontent.com/AnnubisPlaylist/master/LiveStreams.xml</LINK>
+	<CONTENIDO>TV</CONTENIDO>
+	<TIPO>XML</TIPO>
+</CARPETA>
+
+
+*** PASO 5:
+Busca una imagen en png para que sea el icono de tu add-on,
+y sustituye el archivo icon.png. Tamaño recomendado: 512x512px
+Busca una imagen en jpg para que sea el fondo de tu add-on,
+y sustituye el archivo fanart.jpg. Tamaño recomendado: 1920x1080px
+
+
+ENHORABUENA!! TU ADD-ON YA DEBERÍA FUNCIONAR!!
+PARA COMPROBARLO, PUEDES PONERLO MANUALMENTE EN LA CARPETA XBMC\ADDONS\
+O COMPRIMIR LA CARPETA (OJO: NO SOLO SU CONTENIDO, SI NO LA CARPETA)
+EN UN ARCHIVO .ZIP E INSTALARLO DESDE "INSTALAR DESDE ARCHIVO .ZIP".
+
+
+AHORA YA NO TIENES EXCUSA PARA TENER Y COMPARTIR TU PROPIO ADD-ON!
+

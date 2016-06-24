@@ -1,0 +1,20 @@
+<poster>[B][COLOR steelblue]XBMC[/COLOR][COLOR white]Spot[/COLOR][/B] [COLOR gray]PLAYLIST DIRECTORY[/COLOR]</poster>
+
+<dir>
+  <name>[COLOR steelblue][B]NAVI-X[/B][/COLOR] [COLOR white]Playlists[/COLOR] [COLOR orange]DIRECTORS[/COLOR] [COLOR lime](NEW!)[/COLOR]</name>
+  <thumbnail></thumbnail>
+  <link>http://www.navixtreme.com/playlist/73088/directors.plx</link>
+</dir>
+
+<dir>
+  <name>[COLOR steelblue][B]NAVI-X[/B][/COLOR] [COLOR white]Playlists[/COLOR] [COLOR=FFFF00FF]2014 MOVIES.....[/COLOR] [COLOR=FFFFFF00]*Constant Updates*[/COLOR]</name>
+  <thumbnail></thumbnail>
+  <link>http://www.navixtreme.com/playlist/137723/2014_movies....._constant_updates_.plx</link>
+</dir>
+
+
+<dir>
+  <name>Fargo</name>
+  <thumbnail>http://pics.filmaffinity.com/Fargo_Serie_de_TV-242231012-large.jpg</thumbnail>
+  <link>https://raw.githubusercontent.com/XBMCSpot/playlist/master/torrents/series/Fargo.xml</link>
+</dir>

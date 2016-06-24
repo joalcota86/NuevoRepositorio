@@ -1,0 +1,43 @@
+<settings>
+	
+
+	<category label="Options">
+		<setting label="Engine:" type="lsep" />	
+		<setting id="engine" label="BitTorrent player" type="enum" default="0" values="KMediaTorrent|Pulsar"/>
+		
+		<setting id="state" type="bool" label="---" default="false" visible="false"/>
+		<setting id="state2" type="bool" label="---" default="false" visible="false"/>
+		
+		<setting id="mixer" type="bool" label="---" default="false" visible="false"/>
+		
+		<setting id="pword" type="text" default="" visible="false"/>
+		<setting id="initquest" type="bool" label="---" default="true" visible="false"/>
+
+		
+		<setting label="Database:" type="lsep" />
+		<setting id="database" type="bool" label="Show the [B]Daily Updater[/B]" default="true"/>
+		
+		<setting label="Filters" type="lsep" />
+		<setting id="enable_tags" type="bool" label="Use filters" default="false" />	
+		<setting id="anal" type="bool" label="- Anal" default="false" visible="eq(-1,true)"/>
+		<setting id="blackhair" type="bool" label="- Black Hair" default="false" visible="eq(-2,true)"/>
+		<setting id="blonde" type="bool" label="- Blonde" default="false" visible="eq(-3,true)"/>
+		<setting id="blowjob" type="bool" label="- Blowjob" default="false" visible="eq(-4,true)"/>
+		<setting id="brunette" type="bool" label="- Brunette" default="false" visible="eq(-5,true)"/>
+		<setting id="dbpen" type="bool" label="- Double Penetration" default="false" visible="eq(-6,true)"/>
+		<setting id="ebony" type="bool" label="- Ebony" default="false" visible="eq(-7,true)"/>
+		<setting id="handjob" type="bool" label="- Handjob" default="false" visible="eq(-8,true)"/>
+		<setting id="htits" type="bool" label="- Huge Tits" default="false" visible="eq(-9,true)"/>
+		<setting id="lesbian" type="bool" label="- Lesbian" default="false" visible="eq(-10,true)"/>
+		<setting id="milf" type="bool" label="- MILF" default="false" visible="eq(-11,true)"/>
+		<setting id="naturalt" type="bool" label="- Natural Tits" default="false" visible="eq(-12,true)"/>
+		<setting id="redhead" type="bool" label="- Red Head" default="false" visible="eq(-13,true)"/>
+		<setting id="sextoys" type="bool" label="- Sex Toys" default="false" visible="eq(-14,true)"/>
+		<setting id="squirt" type="bool" label="- Squirt" default="false" visible="eq(-15,true)"/>
+		<setting id="tittyfuck" type="bool" label="- Tittyfuck" default="false" visible="eq(-16,true)"/>
+	
+	
+	</category>
+
+
+</settings>

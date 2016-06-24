@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="repository.busterdiggler" name="Buster Diggler's Add-ons" version="1.0" provider-name="Buster Diggler">
+	<extension point="xbmc.addon.repository" name="Buster Diggler's Add-ons Repo 1.0">
+		<info compressed="false">http://github.com/XBMCSpot/busterdiggler.repository/raw/master/addons.xml</info>
+		<checksum>http://github.com/XBMCSpot/busterdiggler.repository/raw/master/addons.xml.md5</checksum>
+		<datadir zip="true">http://github.com/XBMCSpot/busterdiggler.repository/raw/master/zips</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary></summary>
+		<description></description>
+		<platform>all</platform>
+	</extension>
+</addon>

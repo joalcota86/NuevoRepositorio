@@ -1,0 +1,15 @@
+versión 1.1
+- Corrección de lectura de listas en formato PLX.
+- Ahora también acepta listas de canales de TV en formato PLX.
+- El cuadro de diálogo de "blank" en XBMC informa sobre la versión.
+- Algunas aclaraciones y correcciones en las instrucciones.
+
+CÓMO ACTUALIZAR DESDE OTRA VERSIÓN:
+SI VIENES UTILIZANDO LA VERSIÓN ANTERIOR, Y YA TIENES UN ADD-ON ARMADO,
+SOLO TIENES QUE EXTRAER EL ARCHIVO default.py QUE SE ENCUENTRA DENTRO
+DEL FICHERO COMPRIMIDO plugin.video.miaddon.zip, Y COPIARLO EN LA RUTA DE
+TU ADD-ON, SOBREESCRIBIENDO EL ANTERIOR.
+
+
+versión 1.0
+- Versión inicial.

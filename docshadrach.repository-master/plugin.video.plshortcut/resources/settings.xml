@@ -1,0 +1,9 @@
+<settings>	
+
+
+	<setting label="iStream Playlist:" type="lsep" />
+	<setting id="playlisturl" type="text" label="URL: " default=""/>
+	<setting id="format" type="enum" label="Format:" values="XML|PLX" default="0"/>
+
+
+</settings>

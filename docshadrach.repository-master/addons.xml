@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="plugin.audio.radio3alacarta" name="Radio 3" version="1.1.0" provider-name="Doc Shadrach">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>audio</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary></summary>
+		<description>Radio 3 a la carta.</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="plugin.program.bestreposinstaller" name="Best Repos Installer" version="1.5.1" provider-name="Doc Shadrach">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary></summary>
+		<description>Instala los mejores repositorios y add-ons.</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="plugin.video.adryanlist"
+       name="AdryanList"
+       version="2.3.4"
+       provider-name="Doc Shadrach">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+	<import addon="script.module.livestreamer" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>based on livestreamspro 2.3.4 by Shani</summary>
+    <description>Lista de canales de Adryan.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.bestreposinstaller" name="Best Repos Installer" version="1.4.99" provider-name="Doc Shadrach">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary></summary>
+		<description>Instala los mejores repositorios y add-ons.</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="plugin.video.magnetplayer" name="Magnet Player" version="1.1.0" provider-name="Doc Shadrach">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary></summary>
+		<description>Reproduce 'Magnet Links' con Pulsar, XBMCtorrent, KMediaTorrent o Stream.</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="plugin.video.plshortcut" name="" version="1.0.0" provider-name="Doc Shadrach">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary></summary>
+		<description>A shortcut to an iStream Playlist.</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="plugin.video.shareit" name="Share it" version="1.0.1" provider-name="Doc Shadrach">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary></summary>
+		<description></description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="plugin.video.xbmctorrentmod" name="XBMCtorrent to Pulsar" version="1.0.1" provider-name="Doc Shadrach">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary></summary>
+		<description>Modifies XBMCtorrent's scrapers.'</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.docshadrach" name="Doc Shadrach's Add-ons" version="1.0" provider-name="Doc Shadrach">
+	<extension point="xbmc.addon.repository" name="Doc Shadrach's Add-ons Repo 1.0">
+		<info compressed="false">http://github.com/XBMCSpot/docshadrach.repository/raw/master/addons.xml</info>
+		<checksum>http://github.com/XBMCSpot/docshadrach.repository/raw/master/addons.xml.md5</checksum>
+		<datadir zip="true">http://github.com/XBMCSpot/docshadrach.repository/raw/master/zips</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Instala add-ons desde el repositorio de Doc Shadrach</summary>
+		<description>Visita el spot B75OYRJ de la app Spotbros para enterarte de las novedades.</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+</addons>

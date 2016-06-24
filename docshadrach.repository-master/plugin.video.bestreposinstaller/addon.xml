@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.bestreposinstaller" name="Best Repos Installer" version="1.4.99" provider-name="Doc Shadrach">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary></summary>
+		<description>Instala los mejores repositorios y add-ons.</description>
+		<platform>all</platform>
+	</extension>
+</addon>

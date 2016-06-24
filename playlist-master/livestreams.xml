@@ -1,0 +1,67 @@
+ <?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+
+    <channels>
+    <channels_info> <!-- this is optional -->
+      <title>TITULO DE LA LISTA</title> <!-- if channels_info, a title is required, other elements are optional -->
+      <genre>GENERO</genre>
+      <description>DESCRIPCION</description>
+      <thumbnail>URL DE LA IMAGEN DEL ICONO</thumbnail>
+      <fanart>URL DE LA IMAGEN DE FONDO</fanart>
+      <date>AÑO</date>
+      <credits>CREDITOS</credits>
+    </channels_info>
+	 
+    <channel>
+    <name>NOMBRE CATEGORÍA</name>
+    <info>DESCRIPCIÓN DE LA CATEGORÍA</info>
+    <thumbnail>URL DE LA IMAGEN DEL ICONO</thumbnail>
+    <fanart>URL DE LA IMAGEN DE FONDO</fanart>
+
+    <item>
+	<title>TITULO DEL CANAL</title>
+	<link>URL</link>
+    <thumbnail>URL DE LA IMAGEN DEL ICONO</thumbnail>
+    </item>
+
+    <item>
+	<title>TITULO DEL CANAL</title>
+	<link>URL</link>
+    <thumbnail>URL DE LA IMAGEN DEL ICONO</thumbnail>
+    </item>
+
+    <item>
+	<title>TITULO DEL CANAL</title>
+	<link>URL</link>
+    <thumbnail>URL DE LA IMAGEN DEL ICONO</thumbnail>
+    </item>
+
+	</channel>
+	
+    <channel>
+    <name>NOMBRE CATEGORÍA 2</name>
+    <info>DESCRIPCIÓN DE LA CATEGORÍA</info>
+    <thumbnail>URL DE LA IMAGEN DEL ICONO</thumbnail>
+    <fanart>URL DE LA IMAGEN DE FONDO</fanart>
+
+    <item>
+	<title>TITULO DEL CANAL</title>
+	<link>URL</link>
+    <thumbnail>URL DE LA IMAGEN DEL ICONO</thumbnail>
+    </item>
+
+    <item>
+	<title>TITULO DEL CANAL</title>
+	<link>URL</link>
+    <thumbnail>URL DE LA IMAGEN DEL ICONO</thumbnail>
+    </item>
+
+    <item>
+	<title>TITULO DEL CANAL</title>
+	<link>URL</link>
+    <thumbnail>URL DE LA IMAGEN DEL ICONO</thumbnail>
+    </item>
+
+	</channel>
+
+	</channels>

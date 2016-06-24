@@ -1,0 +1,16 @@
+<settings>
+	
+	<category label="Opciones">
+		<setting label="Playlist" type="lsep" />
+		<setting id="url" type="text" label="URL:" default="" enable="true"/>
+		<setting id="tipo" label="Tipo" type="enum" default="1" values="XML|PLX"/>
+		<setting id="pages" label="Cantidad de páginas (solo para direcciones de navixtreme.com)" type="number" default="1" visible="eq(-1,1)"/>
+		<setting type="lsep" label=""/>
+		<setting id="notsupp" type="bool" label="Mostrar servidores no soportados" default="true"/>
+	</category>
+	<category label="Mantenimiento">
+		<setting id="checklogs" type="bool" label="Borrar CheckLogs de días anteriores" default="false"/>
+		<setting type="lsep" label=""/>
+		<setting id="eraselogs" type="bool" label="Borrar ahora todos los CheckLogs" default="false"/>
+	</category>
+</settings>

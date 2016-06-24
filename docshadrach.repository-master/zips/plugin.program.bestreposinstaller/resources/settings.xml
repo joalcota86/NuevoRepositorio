@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>	
+	<category label="Repositorios">
+		<setting label="anonymous repo" type="lsep" />
+   		<setting id="anon" type="bool" label="K0di Tools ..." default="false"/>
+		<setting label="Bromix Add-ons" type="lsep" />
+   		<setting id="bromix" type="bool" label="Vimeo, YouTube, SoundCloud ..." default="false"/>
+		<setting label="Husham.com Repo" type="lsep" />
+   		<setting id="husham" type="bool" label="SportsDevil ..." default="false"/>
+		<setting label="Jas0npc Repository" type="lsep" />
+		<setting id="jason" type="bool" label="The Mutts Nuts ..." default="false"/> 			
+		<setting label="Kinkins REPO" type="lsep" />
+		<setting id="kinkin" type="bool" label="MP3 Streams - Movies4ME ..." default="false"/>
+		<setting label="Kodi Underground" type="lsep" />
+		<setting id="pulsar" type="bool" label="Pulsar - providers ..." default="false"/>
+		<setting label="lambda Add-on repository" type="lsep" />
+		<setting id="lambda" type="bool" label="Genesis - Football Today ..." default="false"/>
+		<setting label="MetalKettles Addon Repository" type="lsep" />
+		<setting id="metal" type="bool" label="Movies HD - IPTV Stalker - NJM Soccer - [COLOR red]Erotik (XXX)[/COLOR] ..." default="false"/>				
+		<setting label="Shanis Addon Repository" type="lsep" />
+		<setting id="shani" type="bool" label="LiveStreamsPro ..." default="false"/>
+		<setting label="The Entertainment Repository" type="lsep" />
+		<setting id="enter" type="bool" label="Entertainment HUB - Release HUB ..." default="false"/>
+		<setting label="TheHighway's Addons" type="lsep" />
+		<setting id="highway" type="bool" label="Dreamcatcher - KissAnime ..." default="false"/>
+		<setting label="tknorris Release Repository" type="lsep" />
+		<setting id="tknorris" type="bool" label="Stream All The Sources (SALTS) - 1Channel" default="false"/>		
+		<setting label="TVADDONS.ag Addon Repository" type="lsep" />
+		<setting id="tvaddons" type="bool" label="Phoenix - Navi-X - Maintenance Tools ..." default="false"/>
+		<setting label="XBMC Israeli Streaming Sites" type="lsep" />
+		<setting id="israeli" type="bool" label=" Playlist Loader ..." default="false"/>
+		<setting label="XunityTalk Repository" type="lsep" />
+		<setting id="xunity" type="bool" label="iStream - World TV - Vdubt25 ..." default="false"/>
+	</category>
+	
+	<category label="PLUS">
+		<setting label="Add-ons huérfanos (sin repositorio)" type="lsep" />
+		<setting id="plexus" type="bool" label="Plexus 0.1.3" default="false"/>
+   		<setting id="latino" type="bool" label="latinototal 0.2.0" default="false"/>
+        <setting id="pelisalacarta" type="bool" label="pelisalacarta 4.0.3" default="false"/>
+        <setting id="pelisver" label="--------- Versión a descargar" type="enum" default="0" values="Gotham|Helix|Isengard" visible="eq(-1,true)"/> 
+        <setting id="tvalacarta" type="bool" label="tvalacarta 3.9.99" default="false"/>
+   		<setting id="kmedia" type="bool" label="KMediaTorrent 2.3.7" default="false"/>
+   		<setting id="mashup" type="bool" label="Mash Up 1.4.2" default="false"/>
+   		<setting id="streamnation" type="bool" label="StreamNation 0.7.2" default="false"/>
+   		<setting id="bbc" type="bool" label="BBC Football Scores 0.3.0 rc2" default="false"/>
+	</category>
+	
+	<category label="[COLOR green]CHANGELOG[/COLOR]">
+		<setting id="changelog" type="bool" label="Mostrar lista de cambios con cada actualización" default="true"/>
+	</category>
+	
+</settings>
